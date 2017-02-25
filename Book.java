@@ -81,7 +81,9 @@ public class Book {
         Book[] bookList2 = {book11};
         Book[] bookList3 = { book12,book13,book14};
         Book[] bookList4 = {book15};
-        System.out.println(bookList1);
+	    for (int i = 0; i<10; i++){
+		    System.out.println( bookList1[i].toString());
+	    }
         System.out.println(bookList2);
         System.out.println(bookList3);
         System.out.println(bookList4);
