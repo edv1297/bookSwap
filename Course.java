@@ -41,4 +41,7 @@ public class Course{
       return (cBooks + this.getBooks());
     }
     
+    public static void main(String[] args){
+       
+    }
 }
