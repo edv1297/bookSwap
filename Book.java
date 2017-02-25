@@ -10,6 +10,7 @@ public class Book {
      *
      */
     public Book (String aTitle, String anAuthor, int anISBN, double aPrice, String aCondition, String aEdition) {
+        //Edition default of 1?
         title = aTitle;
         author = anAuthor;
         ISBN = anISBN;
