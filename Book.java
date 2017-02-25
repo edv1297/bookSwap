@@ -7,7 +7,7 @@ public class Book{
       protected String condition;
       protected String edition;
 
-      public Book (String aTitle, String anAuthor, String anISBN, double aPrice, String aCondition, String aEdition) {
+      public Book (String aTitle, String anAuthor, String anISBN, double aPrice, String aCondition, String aEdition, int quantity) {
           //Edition default of 1?
           title = aTitle;
           author = anAuthor;
@@ -32,7 +32,9 @@ public class Book{
       public double getPrice() {
           return this.price;
       }
-
+      public int getQuantity(){
+        return 
+      }
       public String toString() {
           String s = this.getTitle() + " by " + this.getAuthor() + " (" + this.getISBN()  + ") sells for " + this.getPrice();
           return s;
