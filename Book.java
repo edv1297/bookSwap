@@ -73,6 +73,11 @@ public class Book {
         Book("Violent Borders", "Jones", 9781784784713, 27.95,"new"),
         Book("Globalization Paradox", "Rodrik", 9780393341287, 18.9,"new")];
         bookList4 = [ Book("Microeconomics with Calculus" , "Nechyba",9781305650466, 381.25,"new")];
+        
+        System.out.println(bookList1);
+        System.out.println(bookList2);
+        System.out.println(bookList3);
+        System.out.println(bookList4);
     }
 }
  
