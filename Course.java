@@ -16,7 +16,7 @@ public class Course{
     }
 
   public int getListing(){
-    return num;
+    return listing;
   }
 
   public String getDepartment(){
@@ -44,16 +44,4 @@ public class Course{
     String cBooks = "Your required book(s) are: ";
     return (cBooks + this.getBooks());
   }
-}
-  public static void main(String[] args){
-  
-    
-    for (int i = 1; i<5; i++){
-      System.out.println( bookList1[i].toString());
-    }
-    //System.out.println(bookList2);
-    //System.out.println(bookList3);
-    //System.out.println(bookList4);
-  
-}
 }
