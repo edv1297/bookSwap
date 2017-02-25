@@ -42,6 +42,11 @@ public class Course{
     }
     
     public static void main(String[] args){
-       
+       public Course(String aTitle, String aDepartment, int courseNum, array Book[], int aSection);
+      Course("Across the Oceans and Seas", "COMP", 358, , 01);
+      Course("Linear Algebra", "MATH", 250, , 02);
+      Course("World Politics: An Introduction to International Relations", "PSCI", 202, , 01);
+      Course("Price and Allocation Theory", "ECON" , 251, , 02);
+  
     }
 }
