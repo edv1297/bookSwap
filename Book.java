@@ -9,12 +9,13 @@ public class Book {
      *  BOOK: A book object that stores a book's information
      *
      */
-    public Book (String aTitle, String anAuthor, int anISBN, double aPrice, String aCondition) {
+    public Book (String aTitle, String anAuthor, int anISBN, double aPrice, String aCondition, String aEdition) {
         title = aTitle;
         author = anAuthor;
         ISBN = anISBN;
         price = aPrice;
         condition = aCondition;
+        edition = aEdition;
     }
 
     public String getTitle() {
