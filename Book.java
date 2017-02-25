@@ -4,7 +4,11 @@ public class Book {
     protected String author;
     protected int ISBN;
     protected double price;
-    
+
+    /*
+     *  BOOK: A book object that stores a book's information
+     *
+     */
     public Book (String aTitle, String anAuthor, int anISBN, double aPrice) {
         title = aTitle;
         author = anAuthor;
