@@ -41,5 +41,9 @@ public class Book {
     public void setPrice (double newPrice) {
         price = newPrice;
     }
+    
+    public static void main(String[] args){
+        Book   
+    }
 }
  
